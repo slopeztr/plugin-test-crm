@@ -1,4 +1,4 @@
-# Hometech CRM
+# Demo CRM
 
 ## Requisitos de ambiente
 
