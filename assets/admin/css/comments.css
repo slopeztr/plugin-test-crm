@@ -1,0 +1,9 @@
+/* remover campos name, email, url en quick edit comments */
+div#edithead {
+  display: none !important;
+}
+
+/* remover permalink del proyecto */
+.comments-view-item-link {
+  display: none !important;
+}

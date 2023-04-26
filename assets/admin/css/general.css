@@ -1,0 +1,26 @@
+body {
+  background: #ffffff;
+}
+
+#wpadminbar #wp-admin-bar-wp-logo > .ab-item .ab-icon:before {
+  background-image: url( '/wp-content/plugins/crm/assets/admin/images/logo-ht-20px.png' ) !important;
+  background-position: 0 0;
+  color:rgba(0, 0, 0, 0);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+#wpadminbar #wp-admin-bar-wp-logo.hover > .ab-item .ab-icon {
+  background-position: 0 0;
+}
+
+/* tablas */
+table.widefat {
+  border: 2px solid #f7f6f6;
+  box-shadow: 1px 1px 10px 0px #f7f6f6;
+  border-radius: 3px;
+}
+
+/* p.search-box {
+  display: none !important;
+} */

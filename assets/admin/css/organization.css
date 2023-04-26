@@ -1,0 +1,4 @@
+/* ocultar filtros */
+.hide_field {
+  display: none !important;
+}

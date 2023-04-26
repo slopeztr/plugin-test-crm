@@ -1,0 +1,34 @@
+/* latest_assigned_contacts */
+#dashboard_latest_assigned_contacts .inside {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+#dashboard_latest_assigned_contacts .activity-block {
+  padding-top: 0;
+}
+
+#dashboard_latest_assigned_contacts .subsubsub {
+  float: none;
+  border-top: 1px solid #f0f0f1;
+  margin: 0 -12px;
+  padding: 8px 12px;
+}
+
+
+/* latest_comments */
+#dashboard_latest_comments .inside {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+#dashboard_latest_comments .activity-block {
+  padding-top: 0;
+}
+
+#dashboard_latest_comments .subsubsub {
+  float: none;
+  border-top: 1px solid #f0f0f1;
+  margin: 0 -12px;
+  padding: 8px 12px;
+}

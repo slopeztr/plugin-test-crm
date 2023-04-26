@@ -1,0 +1,84 @@
+/* remover campos name, email, url en quick edit comments */
+div#edithead {
+  display: none !important;
+}
+
+/* ocultar filtros */
+.hide_field {
+  display: none !important;
+}
+
+/* Barra de progreso en proyectos */
+.project_progress_bar {
+  width: 100%;
+  height: 25px;
+}
+
+label#box_project_progress_info {
+  position: absolute;
+  color: #fff;
+  padding: 3px 3px 3px 10px;
+}
+
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  background-color: aliceblue;
+  border-radius: 3px;
+}
+
+::-moz-progress-bar {
+  background-color: #17b1ff;
+  border-radius: 3px;
+}
+
+::-webkit-progress-value {
+  border-radius: 3px;
+  background-color: #17b1ff;
+}
+
+/* ocultar campos en detalle constructor */
+/* #hide_value_m2 {
+  display: none !important;
+}
+
+#hide_final_value {
+  display: none !important;
+} */
+
+/* icono de dias transcurridos */
+.score-icon {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  border-radius: 50%;
+  line-height: 16px;
+  margin-top: 3px;
+}
+
+.score-icon.is-due-started {
+  background: #7ad03a;
+  box-shadow: 1px 1px 4px 1px #7ad03a;
+}
+
+.score-icon.is-due-soon {
+  background: #ffa500;
+  box-shadow: 1px 1px 4px 1px #ffa500;
+}
+
+.score-icon.is-due-past {
+  background: #ff0000;
+  box-shadow: 1px 1px 4px 1px #ff0000;
+}
+
+.score-icon.is-due-closed {
+  background: #888;
+}
+
+.score-icon.is-due-lost {
+  background: #ffffff;
+  border: 1px solid #888;
+}

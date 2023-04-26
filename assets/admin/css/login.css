@@ -1,0 +1,59 @@
+body {
+  background: #fff !important;
+}
+
+.login form {
+  border-radius: 5px;
+  border: 2px solid #f7f6f6;
+  box-shadow: 1px 1px 10px 0px #f7f6f6;
+}
+
+#login h1 a, .login h1 a {
+  background-image: url( '/wp-content/plugins/crm/assets/admin/images/logo-ht.png' );
+  height:115px;
+}
+
+#nav, #backtoblog {
+  display: none;
+}
+
+/* campos */
+input[type=text],
+input[type=password] {
+  border: 1px solid #ececec;
+}
+
+input[type=checkbox]:focus, 
+input[type=color]:focus, 
+input[type=date]:focus, 
+input[type=datetime-local]:focus, 
+input[type=datetime]:focus, 
+input[type=email]:focus, 
+input[type=month]:focus, 
+input[type=number]:focus, 
+input[type=password]:focus, 
+input[type=radio]:focus, 
+input[type=search]:focus, 
+input[type=tel]:focus, 
+input[type=text]:focus, 
+input[type=time]:focus, 
+input[type=url]:focus, 
+input[type=week]:focus, 
+select:focus, 
+textarea:focus {
+  border-color: #54c8ff;
+  box-shadow: 0 0 0 1px #54c8ff;
+}
+
+.wp-core-ui .button-primary {
+  background: #53c8ff;
+  border-color: #53c8ff;
+  box-shadow: 1px 1px 5px 0px #53c8ff;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.wp-core-ui .button-primary:hover {
+  background: #35aae1;
+  border-color: #35aae1;
+}
